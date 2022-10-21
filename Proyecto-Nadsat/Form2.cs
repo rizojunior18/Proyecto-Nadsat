@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using ProductoForm;
 
 namespace Proyecto_Nadsat
 {
@@ -16,6 +8,7 @@ namespace Proyecto_Nadsat
         {
             InitializeComponent();
         }
+        FormProductos frmProductos = new FormProductos();
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -33,12 +26,20 @@ namespace Proyecto_Nadsat
         {
             this.WindowState = FormWindowState.Normal;
             btnRestaurar.Visible = false;
-            btnMaximizar.Visible= true;
+            btnMaximizar.Visible = true;
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //frmProductos.MdiParent = this;
+            //this.toolStripContainer1.ContentPanel.Controls.Add(frmProductos); 
+            frmProductos.Show();
         }
     }
 }
