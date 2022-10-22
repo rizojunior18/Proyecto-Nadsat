@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductoForm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace Proyecto_Nadsat
         {
             InitializeComponent();
         }
+        FormProductos frmProductos = new FormProductos();
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -39,6 +41,14 @@ namespace Proyecto_Nadsat
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //frmProductos.MdiParent = this;
+            //this.toolStripContainer1.ContentPanel.Controls.Add(frmProductos); 
+            frmProductos.Show();
         }
     }
 }
