@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_Nadsat
 {
-    public partial class Form2 : Form
+    public partial class Principal : Form
     {
-        public Form2()
+        public Principal()
         {
             InitializeComponent();
         }
