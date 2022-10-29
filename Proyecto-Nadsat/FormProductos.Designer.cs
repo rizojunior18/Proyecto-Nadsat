@@ -331,6 +331,7 @@
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.lblCantidad);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormProductos";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataProductos)).EndInit();
