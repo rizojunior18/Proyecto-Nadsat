@@ -56,6 +56,7 @@ namespace Proyecto_Nadsat
 
         private void button1_Click(object sender, EventArgs e)
         {
+            pnlContenedor.Controls.Clear();
             FormProductos fps = new FormProductos();
             fps.TopLevel = false;
             pnlContenedor.Controls.Add(fps);
@@ -64,6 +65,7 @@ namespace Proyecto_Nadsat
 
         private void btnTransacciones_Click(object sender, EventArgs e)
         {
+            pnlContenedor.Controls.Clear();
             Ventas fps = new Ventas();
             fps.TopLevel = false;
             pnlContenedor.Controls.Add(fps);
