@@ -61,5 +61,13 @@ namespace Proyecto_Nadsat
             pnlContenedor.Controls.Add(fps);
             fps.Show();
         }
+
+        private void btnTransacciones_Click(object sender, EventArgs e)
+        {
+            Ventas fps = new Ventas();
+            fps.TopLevel = false;
+            pnlContenedor.Controls.Add(fps);
+            fps.Show();
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace Models
         public string Descripcion { get; set; }
         public string Categoria { get; set; }
         public string Marca { get; set; }
-        public double precio { get; set; }
+        public double Precio { get; set; }
         public int CantidadDisponible { get; set; }
 
 
