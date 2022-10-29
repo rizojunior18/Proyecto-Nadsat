@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnIngresar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.txtNombreUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,36 +37,36 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnCancelar
+            // button2
             // 
-            this.btnCancelar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.Location = new System.Drawing.Point(219, 312);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(173, 66);
-            this.btnCancelar.TabIndex = 13;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(195, 312);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(173, 66);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "Registrar Usuario";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // btnIngresar
+            // button1
             // 
-            this.btnIngresar.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnIngresar.Location = new System.Drawing.Point(434, 312);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(173, 66);
-            this.btnIngresar.TabIndex = 12;
-            this.btnIngresar.Text = "Ingresar";
-            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(434, 312);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(173, 66);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Ingresar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(219, 191);
+            this.txtContrasena.Location = new System.Drawing.Point(290, 195);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(388, 27);
             this.txtContrasena.TabIndex = 11;
             // 
             // txtNombreUsuario
             // 
-            this.txtNombreUsuario.Location = new System.Drawing.Point(219, 114);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(290, 118);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(388, 27);
             this.txtNombreUsuario.TabIndex = 10;
@@ -75,7 +75,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(112, 192);
+            this.label3.Location = new System.Drawing.Point(183, 196);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 23);
             this.label3.TabIndex = 9;
@@ -85,11 +85,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(141, 115);
+            this.label2.Location = new System.Drawing.Point(120, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(164, 23);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Usuario:";
+            this.label2.Text = "Nombre de Usuario:";
             // 
             // label1
             // 
@@ -105,16 +105,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(172)))), ((int)(((byte)(188)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnIngresar);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.txtNombreUsuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginMain";
             this.Text = "LoginMain";
             this.ResumeLayout(false);
@@ -124,8 +122,8 @@
 
         #endregion
 
-        private Button btnCancelar;
-        private Button btnIngresar;
+        private Button button2;
+        private Button button1;
         private TextBox txtContrasena;
         private TextBox txtNombreUsuario;
         private Label label3;
