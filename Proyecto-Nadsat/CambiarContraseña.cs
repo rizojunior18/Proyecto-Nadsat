@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyecto_Nadsat
 {
-    public partial class Login : Form
+    public partial class CambiarContraseña : Form
     {
         LoginMain loginMain = new LoginMain();
 
-        public Login()
+        public CambiarContraseña()
         {
             InitializeComponent();
         }

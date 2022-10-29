@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Nadsat
 {
-    partial class Login
+    partial class CambiarContraseña
     {
         /// <summary>
         /// Required designer variable.
@@ -114,6 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(172)))), ((int)(((byte)(188)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtContrasenaDos);
@@ -123,6 +124,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAcceder);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "Login";
             this.ResumeLayout(false);
